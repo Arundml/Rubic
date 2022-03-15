@@ -2780,9 +2780,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #212529;
-    text-decoration: none;
-    -webkit-box-shadow: 10.3px 17.1px 29px 0 rgb(4 61 119 / 16%);
-    box-shadow: 10.3px 17.1px 29px 0 rgb(4 61 119 / 
+  background-color: #ff851e;
+  border-color: #ff7e11;
 }
 
 .btn-primary:focus, .btn-primary.focus {

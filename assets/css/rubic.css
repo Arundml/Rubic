@@ -2780,8 +2780,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #212529;
-  background-color: #ff851e;
-  border-color: #ff7e11;
+  /*background-color: #ff851e;
+  border-color: #ff7e11;*/
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2811,7 +2811,28 @@ fieldset:disabled a.btn {
   background-color: #6c757d;
   border-color: #6c757d;
 }
-
+section#pricing ul.list-group li.list-group-item {
+    BACKGROUND: UNSET;
+    position: relative;
+    z-index: 9;
+}
+section#pricing .col-lg-4:hover ul.list-group li.list-group-item {
+color: #fff;
+  }
+section#pricing .col-lg-4:before {
+    content: "";
+    width: calc(100% - 30px);
+    left: 15px;
+    top: 0;
+    height: 0%;
+    background: #000;
+    position: absolute;
+ z-index: 2;
+    transition: 3s;
+}
+section#pricing .col-lg-4:hover:before{
+      height: 100%;
+}
 .btn-secondary:hover {
   color: #fff;
   background-color: #5a6268;

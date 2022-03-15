@@ -2817,7 +2817,8 @@ section#pricing ul.list-group li.list-group-item {
     z-index: 9;
 }
 section#pricing  .head , section#pricing  .body ,
-section#pricing .col-lg-4:hover ul.list-group li.list-group-item , ul.list-group li.list-group-item:hover {
+section#pricing .col-lg-4:hover ul.list-group li.list-group-item ,
+ ul.list-group li.list-group-item:hover {
 color: #fff;
    position: relative;
     z-index: 9;
@@ -2830,7 +2831,7 @@ section#pricing .col-lg-4:before {
     height: 0%;
     background: #000;
     position: absolute;
- z-index: 2;
+ z-index: -1;
     transition: 3s;
 }
 section#pricing .col-lg-4:hover:before{

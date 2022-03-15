@@ -2816,7 +2816,8 @@ section#pricing ul.list-group li.list-group-item {
     position: relative;
     z-index: 9;
 }
-section#pricing .col-lg-4:hover ul.list-group li.list-group-item {
+section#pricing  .head , section#pricing  .body ,
+section#pricing .col-lg-4:hover ul.list-group li.list-group-item , ul.list-group li.list-group-item:hover {
 color: #fff;
   }
 section#pricing .col-lg-4:before {

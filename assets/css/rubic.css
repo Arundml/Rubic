@@ -2821,7 +2821,7 @@ section#pricing .col-lg-4:hover ul.list-group li.list-group-item ,
  ul.list-group li.list-group-item:hover {
 color: #fff;
    position: relative;
-    z-index: 9;
+   /* z-index: 9;*/
   }
 section#pricing .col-lg-4:before {
     content: "";
